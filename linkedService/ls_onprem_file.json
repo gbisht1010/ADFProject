@@ -1,0 +1,17 @@
+{
+	"name": "ls_onprem_file",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\adf_project",
+			"userId": "gauravbisht",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyNWI4ZjllOC02OWQwLTQ2MWItOTg4YS1jN2Q1MDIzYTBkMzUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "grv-selfHostedIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
